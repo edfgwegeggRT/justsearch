@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#000"/>
+  <text x="32" y="45" fill="white" font-size="45" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle" filter="url(#glow)">JS</text>
+  <defs>
+    <filter id="glow" x="1%" y="1%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
